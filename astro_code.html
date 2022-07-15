@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+Design by Alexander Andres Lazar, Fall 2018
+-->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lazar Speed Code</title>
+<meta name="description" content="Alexander Lazar • The University of California, Irvine • Department of Physics and Astronomy" />
+<meta name="keywords" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="author" content="Alexander Lazar"/>
+<link rel="shortcut icon" href="_figures/favicon/globular.ico"/>
+<link rel="stylesheet" type="text/css" href="template.css" media="all" />
+</head>
+
+<body>
+    <div id="wrapper"> 
+        <!--
+        /* =========== *\
+        |* Top Header  *|
+        \* =========== */
+        -->
+        <div id="header"> 
+            <div class="top_banner">
+                <ul>
+                    <h1> Alexander (Alexandres) Lazar </h1>                     
+                    <h2> PhD • Data Scientist • Astrophysicist </h2>
+                </ul>
+            </div>
+        </div>
+
+        <!--
+        /* ================================= *\
+        |* ======== Hyperlink Menu  ======== *|
+        \* ================================= */
+        -->
+        <div id="linkbar"> 
+            <div class="top_banner">
+                <ul>
+                    <li><h2><a href="index.html" target="_top"> About </a></h2></li> 
+                    <li><h2><a href="portfolio.html" target="_top"> Portolio </a></h2></li>
+                    <li><h2><a href="list_publications.html" target="_top"> Publications </a></h2></li> 
+                    <li><h2><a href="resume.pdf"> Resume </a></h2></li> 
+                </ul>
+            </div>
+        </div>
+        
+        <!--
+        /* =========================================== *\
+        |* List of my code that I have writtern and    *| 
+        |* have eventuailly used in research           *|
+        \* =========================================== */
+        -->
+        <div id="page_content">
+            <h5><b>Usage:</b> <i> These a toolkits I've written that are used throughout my work. There are better toolkits out in the public, but I wrote these for the worth while experience --- I invite you to develop your own. 
+                Whatever repositories that I have public will be located in my <a href="http://bitbucket.org/darthlazar/"> <b> [Bitbucket]</b></a>.</i></h5>
+
+            <h2><br><i>N-body Initial Conditions Generator</i></h2>
+            <hr>
+            <h4>
+            Generating the particle representation of potential-density profiles are a necessary starting component in several studies of N-body (gravitational) simulations. This code can generate realizations for a Hernquist model 
+            (<a href="http://adsabs.harvard.edu/abs/1990ApJ...356..359H">Hernquist 1990</a>)
+            for a Jaffe model
+            (<a href="http://adsabs.harvard.edu/abs/1983MNRAS.202..995J">Jaffe 1983</a>),
+            and for the Dehnen power law family 
+            (<a href="http://adsabs.harvard.edu/abs/1993MNRAS.265..250D">Dehnen 1993</a>; which also produces a Hernquist and Moore profile) 
+            by sampling from their distribution functions when treating them as collisionless systems. As of now, only isotropic profiles are computable. In reality however, we cannot have nice things like halos with complete isotropy. 
+            </h4>
+            <div class="container">
+                <img src="figures/df.png" width="32.5%" height="32.5%" alt='df'>
+                <img src="figures/disperse.png" width="32.5%" height="32.5%" alt='disperse'>
+            </div>
+            <br>
+            
+            <h2><br><i>Halo Mass Function Toolkit</i></h2>
+            <hr>
+            <h4> Mass functions are an important tool in quantifying the halo abundance in cosmic structure formation. I use a object-orientated toolkit that generates mass functions for a catalog of fitted multiplicity functions 
+                (<a href="http://adsabs.harvard.edu/abs/1974ApJ...187..425P">Press & Schechter 1974</a>,
+                <a href="http://adsabs.harvard.edu/abs/1999MNRAS.308..119S">Sheth & Tormen 1999</a>,
+                <a href="http://adsabs.harvard.edu/abs/2001MNRAS.321..372J">Jenkins et al. 2001</a>,
+                etc.) 
+                utilizing Press-Schechter formalism. Implemented are the best fit parameters of various flat LCDM measurements (with relativistic species), the effects of baryonic acoustic oscillations 
+                (<a href="http://adsabs.harvard.edu/abs/1998ApJ...496..605E">Eisenstein & Hu 1997</a>),
+                optional WDM parametrization 
+                (<a href="http://iopscience.iop.org/article/10.1086/321541/meta">Bode et al 2001</a>),
+                and scripts to produce HMFs from generated halo catalogs.</h4>
+            <div class="container">
+                <img src="figures/transfer.png" width="32.5%" height="32.5%" alt='transfer'>
+                <img src="figures/fits.png" width="32.5%" height="32.5%" alt='fits'>
+                <img src="figures/hmf.png" width="32.5%" height="32.5%" alt='hmf'>
+            </div>
+            <br>
+        </div>
+        
+        <div class="clear"></div>
+    </div>
+</body>
+
