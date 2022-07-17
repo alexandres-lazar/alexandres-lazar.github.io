@@ -5,12 +5,12 @@ Design by Alexander Andres Lazar, Fall 2018
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Lazar Speed Code</title>
-<meta name="description" content="Alexander Lazar • The University of California, Irvine • Department of Physics and Astronomy" />
+<title>Alexander Andres Lazar</title>
+<meta name="description" content="Alexander Lazar • Data Scientist" />
 <meta name="keywords" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta name="author" content="Alexander Lazar"/>
-<link rel="shortcut icon" href="_figures/favicon/globular.ico"/>
+<link rel="shortcut icon" href="figures/favicon/globular.ico"/>
 <link rel="stylesheet" type="text/css" href="template.css" media="all" />
 </head>
 
@@ -48,19 +48,20 @@ Design by Alexander Andres Lazar, Fall 2018
         
         <!--
         /* =========================================== *\
-        |* List of my code that I have writtern and    *| 
-        |* have eventuailly used in research           *|
+        |* Page contents                               *| 
         \* =========================================== */
         -->
         <div id="page_content">
             <h5><b>2018-2023:</b> <i> The projects I have spear headed and (mostly) went on into publishing as my time as a physics PhD researcher at Univeristy of California, Irvine. </i></h5>
 
             &nbsp 
-            <h2><i><a href="https://arxiv.org/pdf/2004.10817.pdf" target="_blank">
+            <h2><i><a href="https://arxiv.org/" target="_blank">
                 <font color=#0073e6>
                   Connecting the local, near-field galaxies to cosmic dawn
                 </font></a></i></h2> 
             <hr>
+                <h4><b><i> [Coming soon] </i></b></h4>
+
                 <div class="container">
                     <img src="figures/viz_zoom_labels.png" width="82.5%" height="82.5%" alt='transfer'>
                 </div>
@@ -73,11 +74,30 @@ Design by Alexander Andres Lazar, Fall 2018
 
             &nbsp 
             &nbsp 
-            <h2><i><a href="https://arxiv.org/pdf/2004.10817.pdf" target="_blank">
+            <h2><i><a href="https://arxiv.org" target="_blank">
                 <font color=#0073e6>
-                  A lensing profile to accuratly model populations of CDM field halos
+                  Lensing profile to accuratly model projections of CDM field halos
                 </font></a></i></h2> 
             <hr>
+                <h4><b><i> [Coming soon] </i></b></h4>
+                <div class="container">
+                    <img src="figures/magnification.png" width="82.5%" height="82.5%" alt='transfer'>
+                </div>
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            &nbsp 
+            &nbsp 
+            <h2> <i><a href="https://arxiv.org" target="_blank">
+                <font color=#0073e6>
+                  Statistical lens-population model for the projected structure
+                </font></a></i></h2> 
+            <hr>
+                <h4><b><i> [Coming soon] </i></b></h4>
             
             <br>
             <br>
@@ -92,6 +112,10 @@ Design by Alexander Andres Lazar, Fall 2018
                   Probing the physics of the first stars through transients
                 </font></a></i></h2> 
             <hr>
+            <h4>
+                The formation of first stars played a critical role in early Universe's cosmic evolution. A key function in theoretical astrophysics to understand the physics of the first stars is their initial mass function (IMF), a probability distribution function that is dependent on the stars' mass at formation. Unfortunately the form of the IMF is unknown! I propose a simple model to probe the shape of the IMF (dependent on two parameters) by future observations of their most violent
+deaths: Gamma-ray bursts and Pair-Instability Supernovae.
+            </h4>
                 <div class="container">
                     <img src="figures/imf_exmp.png" width="38.5%" height="32.5%" alt='transfer'>
                     <img src="figures/imf_constr.png" width="38.5%" height="32.5%" alt='transfer'>
@@ -110,6 +134,11 @@ Design by Alexander Andres Lazar, Fall 2018
                   Correlated clustering impacts strong lensing signals
                 </font></a></i></h2> 
             <hr>
+            <h4>
+                The effects of dark matter halos on strong gravitaitonal lensing (multiply formed images) are a key phenomena to probe to true nature of our Universe, as different dark matter models produce different predictions of how dark matter halos populate (abundance), form (structure), and congregate (cluster). In order to analyze strongly lensed images, a lensing model must be set up for a main, along with assumptions of how to populate halos from the source to the observer. This is
+typically split into two components, the substructure (halos within the main lens) and the line-of-sight halos (halos in the foreground and background outside the main lens. I explore a third component that is expected in the Standard Cosmological model, <i>correlated clustering</i>. Using a several cosmological simulations, with dark matter only and one that is more realistic (with baryons), I quantify the impact of correlated clustering in a strong lensing setting. 
+
+            </h4>
                 <div class="container">
                     <img src="figures/cc.png" width="82.5%" height="82.5%" alt='transfer'>
                 </div>
@@ -129,13 +158,12 @@ Design by Alexander Andres Lazar, Fall 2018
                 </font></a></i></h2> 
             <hr>
             <h4>
-            Generating the particle representation of potential-density profiles are a necessary starting component in several studies of N-body (gravitational) simulations. This code can generate realizations for a Hernquist model 
-            (<a href="http://adsabs.harvard.edu/abs/1990ApJ...356..359H">Hernquist 1990</a>)
-            for a Jaffe model
-            (<a href="http://adsabs.harvard.edu/abs/1983MNRAS.202..995J">Jaffe 1983</a>),
-            and for the Dehnen power law family 
-            (<a href="http://adsabs.harvard.edu/abs/1993MNRAS.265..250D">Dehnen 1993</a>; which also produces a Hernquist and Moore profile) 
-            by sampling from their distribution functions when treating them as collisionless systems. As of now, only isotropic profiles are computable. In reality however, we cannot have nice things like halos with complete isotropy. 
+                The Standard Paradigm (Cold Dark Matter) of cosmology predicts dark matter halos (without baryons) to have cusp (power-law rising) central densities, but galaxies from HI surveys shows halos are in fact cuspy (constant power-law) are their center. It is postulated that with the inclusion of baryons, stellar feedback at the galaxies center could be powerful to disperse the dark matter particle orbits, thus transitioning halos from cusp to core inner densities. 
+            <br>
+            <br>
+
+            Using 54 high-resolution simulations (~ 0.5 TBs total) of realistic galaxies (ranging from ultra-faints to Milky Way-like), I study the core-creation relation and show that it is heavily dependent on the halo mass and stellar mass ratio. I then contrive an accurate density profile, the <i>core-Einasto</i> profile that accurately models, for the first time, the dark matter core size as a function of the stellar abundance and captures the shape of the entire dark matter distribution.
+            Furthermore, I devise a numerical model that capitalizes off of the quantative parameters I introduced with my <i>core-Einasto</i> profile. 
             </h4>
             <div class="container">
                 <img src="figures/MstarMhalo.png" width="82.5%" height="82.5%" alt='disperse'>
@@ -157,16 +185,11 @@ Design by Alexander Andres Lazar, Fall 2018
                   Accurate mass estimates from dispersion-supported galaxies
                 </font></a></i></h2> 
             <hr>
-            <h4> Mass functions are an important tool in quantifying the halo abundance in cosmic structure formation. I use a object-orientated toolkit that generates mass functions for a catalog of fitted multiplicity functions 
-                (<a href="http://adsabs.harvard.edu/abs/1974ApJ...187..425P">Press & Schechter 1974</a>,
-                <a href="http://adsabs.harvard.edu/abs/1999MNRAS.308..119S">Sheth & Tormen 1999</a>,
-                <a href="http://adsabs.harvard.edu/abs/2001MNRAS.321..372J">Jenkins et al. 2001</a>,
-                etc.) 
-                utilizing Press-Schechter formalism. Implemented are the best fit parameters of various flat LCDM measurements (with relativistic species), the effects of baryonic acoustic oscillations 
-                (<a href="http://adsabs.harvard.edu/abs/1998ApJ...496..605E">Eisenstein & Hu 1997</a>),
-                optional WDM parametrization 
-                (<a href="http://iopscience.iop.org/article/10.1086/321541/meta">Bode et al 2001</a>),
-                and scripts to produce HMFs from generated halo catalogs.</h4>
+            <h4>
+                The mass distribution of dwarf galaxies are believed to be dominated by dark matter, compared to their stars and gas. Therefore, the gravitational potential energies, especially at the center of these galaxies, are dark matter dominant. We can't see dark matter of course, but we can see the proper motions (motions compared to the background) of their stars, which are governed by the dark matter component of the galaxy. 
+
+                Since these galaxies are dispersion-supported (lacking a disk), I analytically derived a simplified mass estimator of the galaxies dark matter within a measurable observable (i.e., 3D and 2D half-light radius) starting with the Spherical Jeans equation. I then go on to compare these estimators to realistic galaxy simulations of dwarf galaxies.
+            </h4>
                 <div class="container">
                     <img src="figures/dwarf_mass.png" width="38.5%" height="32.5%" alt='transfer'>
                     <img src="figures/dwarf_vcirc.png" width="38.5%" height="32.5%" alt='fits'>
